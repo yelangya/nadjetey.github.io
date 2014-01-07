@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Kasper
 
 This is a port of Ghost's default theme [Casper](https://github.com/tryghost/casper) for Jekyll. 
@@ -36,3 +37,21 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
 NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+=======
+## Blog experiment
+A Jekyll blog, hosted on Github-pages. This is where Nii blogs.
+
+## License
+The following directories and their contents are Copyright Nii Adjetey Sowah. 
+You may not reuse anything therein without my permission:
+
+```
+_posts/
+images/
+```
+
+All other directories and files are MIT Licensed (where applicable).
+
+
+[@_nadjetey](http://twitter.com/_nadjetey)
+>>>>>>> 4f3f5acb0983eb2127b40e8277b53e6e2b174d7b

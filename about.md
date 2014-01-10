@@ -1,6 +1,11 @@
 ---
 layout: page
-title: About me 
+title: About me
+published: false
 ---
 
-This is where you could put your "About me" page.
+## Test passed
+
+I did this with prose.io. 
+> Bye
+

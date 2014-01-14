@@ -1,12 +1,5 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
-
+name: nadjetey
+description: This is my corner of the internet - welcome!
 markdown: redcarpet
 pygments: true
-logo: false
-paginate: 15
-
-# Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+timezone: Africa/Accra

@@ -1,0 +1,122 @@
+.footer .container,
+.header-main{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 750px;
+    text-align: center;   
+}
+.footer {
+    min-height: 100px;
+    padding-top: 20px;
+}
+.navbar {
+    margin: 0px;
+    background-color: #1d1d1d;
+    border-color: #1d1d1d;   
+}
+
+.heading, 
+.footer {
+    background-color: #343434;
+    color: #ffffff;
+}
+.heading {
+    margin-bottom: 20px;
+}
+.main {
+    max-width: 730px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+}
+
+
+.meta {    
+    background: #408396;
+    color: white;
+    padding: 20px 40px;
+}
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -60px;
+    /* Pad bottom by footer height */
+    padding: 0 0 60px;
+}
+
+.topmenu .active {
+    border-bottom: 2px solid #408396;
+    background-color: #080808;
+}
+
+@media (min-width: 768px) { 
+    .topmenu {
+        float: right!important;
+    }
+
+    .post-meta {
+        margin-top: 30px;
+    }
+}
+
+.footer a,
+.meta a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer a:hover,
+.meta a:hover {
+    color: #000000;
+}
+
+#social-icons a{    
+    padding: 0px 5px;
+}
+
+.related-posts {
+    margin-top: 49px;
+    margin-bottom: 50px;
+    background-color: #f5f5f5;
+}
+
+.related-posts .container {
+    max-width: 730px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px 0px;
+}
+
+.comments {
+    max-width: 730px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact-form{
+    padding-top: 20px;
+}
+
+.form-captcha input {
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.form-required {
+    color: red;
+    margin: 0 3px;
+}
+
+.post-list time {
+    color: #bbbbbb;
+}

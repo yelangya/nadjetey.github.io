@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ site.name }} - {{ site.description }}</title>
+        <meta name="description" content="{{ site.meta_description}}" />
+        <link rel="canonical" href="{{ page.url }}" />
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="/assets/css/extra.css">
+        <!-- This is for syntax highlight -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/syntax.css">                
+        <!-- Fontawesome icons -->
+        <link rel="stylesheet" href="/assets/icons/font-awesome.min.css">
+        <!-- Java scripts -->
+        <script src="/assets/js/vendor/modernizr.js"></script>  
+        <link rel="shortcut icon" href="/assets/images/favicon.png">
+    </head>
+    <body>  
+        <div id="wrap">
+            <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <div class="container header-main">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="{{site.baseurl}}">{{ site.name}}</a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
+                        <ul class="nav navbar-nav topmenu">
+                            {% assign sorted_pages = site.pages | sort:"name" %}
+                            {% for node in sorted_pages %}
+                            {% capture current_location %}{{ node.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
+                            <li>
+                                <a {% if location == current_location %}class="active" {% endif %} href="{{node.url}}">
+                                    {{node.title}}
+                            </a>
+                        </li>
+                        {% endfor %}                            
+                    </ul>                        
+                </div><!--/.nav-collapse -->
+                </div>
+            </div>

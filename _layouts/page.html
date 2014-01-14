@@ -1,25 +1,17 @@
 ---
 layout: default
 ---
+<div class="heading">
+    <div class="header-main container">
+        <h1>{{ page.title }}</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>                    
+    </div>
+    <div class="header-main meta">
+        <p>meta</p>
+    </div>
+</div>
 
-<main class="content" role="main">
-    <article class="post">
-        <header class="post-header">
-            <a id="blog-logo" href="{{site.baseurl}}">
-                {% if site.logo %}
-                    <img src="{{site.logo}}" alt="{{ site.name }}" />
-                {% else %}
-                    <span class="blog-title">{{ site.name }}</span>
-                {%endif%} 
-            </a>
-        </header>
+<div class="main container">    
+    {{ content }}
+</div>
 
-        <h1 class="post-title">{{ page.title }}</h1>
-
-        <section class="post-content">
-            {{content}}
-        </section>
-
-    </article>
-
-</main>

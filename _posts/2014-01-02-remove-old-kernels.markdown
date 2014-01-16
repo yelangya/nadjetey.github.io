@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Cleanup grub OS list"
+sub-title: Tired of all the Ubuntu versions in your grub OS list? Thankfully, something can be done about it.
 date:   2014-01-02 21:30:26
 categories: ubuntu tech
 tags: quickfix ubuntu-kernel

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Lessons learned from Shotgun, Pt 1"
+title:  "Lessons learned from Shotgun, Pt. 1"
 sub-title: I built my first official Jekyll theme named Shotgun. In the process I learned many things & I would like to share :)
-date:   2014-01-16
+date:   2014-01-22
 categories: tech
 tags: jekyll theme-development
 ---

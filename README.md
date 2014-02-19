@@ -1,16 +1,21 @@
-## Blog experiment
-A Jekyll blog, hosted on Github-pages. This is where Nii blogs.
+Wangana [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/nadjetey/wangana/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+==============
 
-## License
-The following directories and their contents are Copyright Nii Adjetey Sowah. 
-You may not reuse anything therein without my permission:
+Wangan is responsive [Jekyll](http://jekyllrb.com/) theme, perfect for powering your GitHub hosted blog.
 
-```
-_posts/
-images/
-```
+## Screenshots
+``` 
+coming soon
+``` 
 
-All other directories and files are MIT Licensed (where applicable).
+## Customization
 
+Next you'll want to change a few things. Most of them can be changed directly in
+[_config.yml][config]. That's where you can add your social links, change the accent
+color, stuff like that.
 
-[@_nadjetey](http://twitter.com/_nadjetey)
+## Copyright
+The MIT License (MIT), Copyright (c) 2014 Nii Adjetey Sowah. [Read full document.](LICENSE)
+
+## Contact
+I'd love to hear from you, [send me a tweet](https://twitter.com/_nadjetey). Feel free to [open issues](https://github.com/nadjetey/wangana/issues/new) if you run into trouble or have suggestions. Pull Requests always welcome.

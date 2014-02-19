@@ -1,5 +1,14 @@
-name: nadjetey
-description: This is my corner of the internet - welcome!
+name: Wanga Theme
 markdown: redcarpet
 pygments: true
-timezone: Africa/Accra
+
+permalink: /:year/:month/:title/
+owner:
+    name: Nii Adjetey Sowah
+    twitter: _nadjetey
+    github: nadjetey
+    disqus_shortname: nadjetey
+    
+ga_id: UA-48177899-1
+ga_username: nadjetey.github.io
+     

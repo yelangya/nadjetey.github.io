@@ -6,7 +6,7 @@ tags: linux rails gnu ruby
 comments: true
 ---
 
-It is no news that sometimes, the most diffult part of developing software is - setting up the development environment. This tutorial is going to walk you through __ simple steps to installing [Ruby on Rails (RoR)](http://rubyonrails.org/). This method uses [RVM](https://rvm.io/). Type the following commands into your ``terminal``
+It is no news that sometimes, the most diffult part of developing software is - setting up the development environment. This tutorial is going to walk you through 9 simple steps to installing [Ruby on Rails (RoR)](http://rubyonrails.org/). This method uses [RVM](https://rvm.io/). Type the following commands into your ``terminal``
    
     sudo apt-get install git-core build-essential
 

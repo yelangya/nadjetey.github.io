@@ -6,7 +6,7 @@ tags: traffic-analysis GitHub bitdeli
 comments: true
 ---
 
-![image here](https://raw.github.com/nadjetey/wangana/master/assets/images/post-images/bitdeli.png)
+![image here](https://raw.github.com/nadjetey/nadjetey.github.io/master/assets/images/post-images/bitdeli.png)
 
 This was the welcome notice I received while trying to view the traffic to my GitHub repositories using [bitdeli](http://blog.bitdeli.com/post/77717727361/on-githubs-image-proxy). The most bitdeli could do was post this on their site: 
 > There doesn’t seem to be an easy way to fix the problem on our side. 

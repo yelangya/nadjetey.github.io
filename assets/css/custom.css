@@ -268,7 +268,7 @@ height:100%;
 #menu, .comments-meta {
     display: none;
 }
-@media (min-width: 100px) and (max-width: 767px) {
+@media (min-width: 100px) and (max-width: 768px) {
     #wrap > .container {
         padding: 0 0 20px;
         overflow: hidden;

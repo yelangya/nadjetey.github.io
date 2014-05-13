@@ -1,6 +1,6 @@
 name: nadjetey
 markdown: redcarpet
-highlighter: true
+pygments: true
 url: http://nadjetey.github.io
 permalink: /:year/:month/:title/
 owner:

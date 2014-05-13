@@ -24,7 +24,7 @@ __*__ _marks completed tasks_
 After a successful day one, I completed Tasks A to E, which constitutes about 45% of the depot application. In total I spent 4hr:20min:57sec. For a more comprehensive log of my time spent, refer to the following file (by kind courtesy [timetrap](http://rubygems.org/gems/timetrap))
 
 ### Time log
-```txt
+```text
 Timesheet: Task A
 Day                Duration   Notes
 Mon May 12, 2014   0:10:27    A1:Creating the Products maintenance application

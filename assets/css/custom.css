@@ -91,7 +91,7 @@ display:block;
 }
 
 .postlist-detail-indicator {
-    cursor:pointer;
+cursor:pointer;
 }
 
 .leaders {
@@ -257,10 +257,17 @@ height:2px;
 margin:25px 0;
 }
 
-.tags-contaier {
+.tags-contaier, .projects-container {
 margin:20px 0 0;
 }
 
+#projects-preable {
+font-style: italic;
+}
+
+#projects-list li {
+margin-bottom: 10px;
+}
 body {
 color:#000;
 font:17px Poly, 'Helvetica Neue', Helvetica, serif, Arial!important;

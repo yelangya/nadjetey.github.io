@@ -1,7 +1,7 @@
 name: nadjetey
 markdown: redcarpet
 
-url: http://nadjetey.github.io
+#url: http://nadjetey.github.io
 permalink: /:year/:month/:title/
 owner:
     name: Nii Adjetey Sowah

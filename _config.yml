@@ -1,7 +1,9 @@
 name: nadjetey
 markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
-url: http://nadjetey.github.io
+ url: http://nadjetey.github.io
 permalink: /:year/:month/:title/
 owner:
     name: Nii Adjetey Sowah

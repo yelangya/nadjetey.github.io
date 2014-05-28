@@ -133,6 +133,7 @@ padding:30px;
 .page-preview-icon {
 z-index:9001;
 cursor:pointer;
+float: right!important;
 }
 
 .page-preview-text {
@@ -279,6 +280,12 @@ height:100%;
 #menu, .comments-meta {
     display: none;
 }
+
+@media (min-width: 1000px) {
+    .page-preview-icon {
+        right: 10%;
+    }
+}
 @media (max-width: 768px) {
     #wrap > .container {
         padding: 0 0 20px;
@@ -391,4 +398,10 @@ height:100%;
     .results li {
         padding-bottom: 10px !important;
     }
+}
+
+#site-time {
+    float: right;
+    margin-bottom: 5px;
+    padding-right: 20px;
 }

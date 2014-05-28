@@ -2,7 +2,7 @@
 layout: post
 title:  "The Journey &mdash; Book one complete"
 date:   2014-05-28
-tags: ruby rails rubyonrails gem rubygems rails-4 timetrap the-depot-application
+tags: ruby rails rubyonrails gem rubygems rails-4 timetrap the-depot-application Pragmatic-Bookshelf
 comments: true
 ---
 

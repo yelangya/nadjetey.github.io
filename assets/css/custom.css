@@ -280,13 +280,6 @@ height:100%;
 #menu, .comments-meta {
     display: none;
 }
-
-#site-time {
-    float: right;
-    margin-bottom: 5px;
-    padding-right: 20px;
-}
-
 @media (min-width: 1000px) {
     .page-preview-icon {
         right: 10%;

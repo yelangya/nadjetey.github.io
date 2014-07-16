@@ -1,11 +1,15 @@
 name: nadjetey's blog
 description:  My corner of the web
 
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed
+
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-url: http://nadjetey.github.io
+# url: http://nadjetey.github.io
 permalink: /:year/:month/:title/
 owner:
     name: Nii Adjetey Sowah

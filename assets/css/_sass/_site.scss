@@ -60,7 +60,18 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  #menu,
+  .comments-meta {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
+  #wrap {
+    margin-top: -75px !important;
+  }
+
   #wrap > .container {
     padding: 0 0 20px;
     overflow: hidden;
@@ -117,9 +128,12 @@ body {
     position: absolute;
     z-index: 1200;
   }
+
   .sidebar{
     margin-left: 1.875em;
+    position: relative !important;
   }
+
   .row-offcanvas {
     position: relative;
     -webkit-transition: all 0.5s ease-out;

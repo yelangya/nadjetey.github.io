@@ -19,16 +19,18 @@ _[afridevcmty](http://afridevcmty.herokuapp.com/) relies on  [github](https://gi
 
 Note: Only users with github accounts that were created before 19 July 2014 and with location fields which are not empty are present in the directory.
 
-#### How to use
+### How to use
 <iframe src="//instagram.com/p/qrfzMWoqgG/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
 
 Visit [afridevcmty.herokuapp.com](http://afridevcmty.herokuapp.com/)
 If your github account is not listed but fit the profile then it might be because:
+
 * the account that was created after 19 July 2014 or
 * the location field in your github user account profile is empty
 
 _if these requirements are fulfilled and still cannot see the profile in afridevcmty, a feature for adding new accounts will be developed very soon_
 
 To contribute to this project &mdash; afridevcmty, visit the [source code](https://github.com/nadjetey/afridevcmty)
+To contact the developers about afridevcmty, send a [message](https://github.com/nadjetey/afridevcmty/issues/new)
 
 More Vimm!

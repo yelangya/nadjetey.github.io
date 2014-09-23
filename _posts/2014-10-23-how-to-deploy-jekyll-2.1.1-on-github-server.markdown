@@ -1,12 +1,15 @@
 ---
 layout: post
 title:  "How to deploy Jekyll 2.1.1 on Github server"
-date:   2014-07-17
+date:   2014-10-23
 tags: jekyll_2.1.1 github_server hosting free
 comments: true
 ---
+<strong>[UPDATED]</strong> GitHub Pages now runs Jekyll 2.2.0.
+Check out the full list of 300+ changes and new features added to Jekyll since version 1.5.1.
+[Read more](https://github.com/blog/1867-github-pages-now-runs-jekyll-2-2-0)
 
-<strong>Problem</strong> is that SASS with Jekyll, cannnot be used GitHub Pages since the GitHub Pages server is still using Jekyll 1.5.1, as shown [here](https://pages.github.com/versions/).
+Problem is that SASS with Jekyll, cannnot be used GitHub Pages since the GitHub Pages server is still using Jekyll 1.5.1, as shown [here](https://pages.github.com/versions/).
 
 Solution:
 

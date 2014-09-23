@@ -1,10 +1,9 @@
 name: nadjetey's blog
 description:  My corner of the web
 
-# used with Jekyll 2.1.1
-# sass:
-#   sass_dir: assets/css/_sass
-#   style: :compressed
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed
 
 markdown: redcarpet
 redcarpet:

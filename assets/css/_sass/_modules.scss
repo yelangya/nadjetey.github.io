@@ -8,12 +8,19 @@
 }
 
 .goto-top {
+  display: none;
   font-size: 15px !important;
   cursor: pointer;
   margin: 1px 0;
+  background: $primary-color;
+  i {
+    color: #333;
+  }
+
   &:hover,
-  &:focus {
-    background: $primary-color;
+  &:focus,
+  &:hover i {
+    color: red;
   }
 }
 
@@ -28,17 +35,15 @@
 }
 
 #twitter-ic{
-  &:hover,
-  &:focus {
-    color: #55acee !important;
-  }
+  color: #55acee !important;
+}
+
+#git-ic{
+  color: #333 !important;
 }
 
 #rss-ic{
-  &:hover,
-  &:focus {
-    color: #ff9933 !important;
-  }
+  color: #ff9933 !important;
 }
 
 .top-nav {
@@ -134,6 +139,10 @@ pre {
 .postlist-title {
   font-size: 22px;
   font-weight: 700;
+}
+
+.postlist-detail-indicator{
+  cursor:pointer;
 }
 
 .page-title {

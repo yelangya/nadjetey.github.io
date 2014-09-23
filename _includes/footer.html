@@ -1,3 +1,14 @@
-        {% include scripts.html %}
+        <!-- Other JavaScripts -->
+        <script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.url }}"></script>
+        <script src="{{ "/assets/js/simpleJekyllSearch.js" | prepend: site.url }}"></script>
+        <script src="{{ "/assets/js/jquery.timeago.js" | prepend: site.url }}"></script>
+        <script>
+          {% include scripts/timeago.html %}
+          {% include scripts/page-effects.html %}
+          {% include scripts/simple-search.html %}
+          {% include scripts/google-analytics.html %}
+          {% include scripts/disqus.html %}
+          {% include scripts/sidebar.html %}
+        </script>
     </body>
 </html>

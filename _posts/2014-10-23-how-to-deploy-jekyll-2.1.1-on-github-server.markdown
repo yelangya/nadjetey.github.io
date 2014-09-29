@@ -4,6 +4,7 @@ title:  "How to deploy Jekyll 2.1.1 on Github server"
 date:   2014-10-23
 tags: jekyll_2.1.1 github_server hosting free
 comments: true
+archive: true
 ---
 <strong>[UPDATED]</strong> GitHub Pages now runs Jekyll 2.2.0.
 Check out the full list of 300+ changes and new features added to Jekyll since version 1.5.1.

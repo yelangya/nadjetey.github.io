@@ -4,6 +4,7 @@ title:  "The Journey &mdash; Day one"
 date:   2014-05-13
 tags: ruby rails rubyonrails gem rubygems rails-4 timetrap the-depot-application
 comments: true
+archive: true
 ---
 I talked about my mission in the previous blog post titled, _My journey to becoming a Senior Ruby on Rails Developer_ (visit that post, if you haven't seen it already). To complete my first Rails application, I need to complete the following tasks/chapters in the book ["Agile Web Development with Rails, Edition 4"](http://pragprog.com/book/rails4/agile-web-development-with-rails-4).
 

@@ -4,6 +4,7 @@ title:  "My journey to becoming a Senior Ruby on Rails Developer"
 date:   2014-05-12
 tags: ruby rails rubyonrails gem rubygems rails-4 timetrap the-depot-application
 comments: true
+archive: false
 ---
 I Nii, have fallen in love with the Rails framework and community. After reading @richardsondx article, ["How I TRAINed to learn Rails (A Guide to Learning Rails in 2 months)"](https://medium.com/how-i-learned-ruby-rails/e08c94e2a51e), I was inspired! No more games, it's time to up my skills. I got myself a copy of ["Agile Web Development with Rails, Edition 4"](http://pragprog.com/book/rails4/agile-web-development-with-rails-4) and started to study/read.
 

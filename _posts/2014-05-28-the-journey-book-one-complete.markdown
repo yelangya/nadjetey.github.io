@@ -4,6 +4,7 @@ title:  "The Journey &mdash; Book one complete"
 date:   2014-05-28
 tags: ruby rails rubyonrails gem rubygems rails-4 timetrap the-depot-application Pragmatic-Bookshelf
 comments: true
+archive: false
 ---
 
 Today, I can say I have completed the book ["Agile Web Development with Rails, Edition 4"](http://pragprog.com/book/rails4/agile-web-development-with-rails-4). I'm excited, especially after such an expected surprize in hosting challenges on [Heroku](https://www.heroku.com/home). I'm talking about issues with:

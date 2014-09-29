@@ -4,6 +4,7 @@ title:  "How to include HTML entities in XML source"
 date:   2014-06-24
 tags: xml atom jekyll
 comments: true
+archive: false
 ---
 In my attemp to build an RSS feed for this blog, I run a problem. Some html entities (without some help) could not be parsed in XML. This was the error generated
 

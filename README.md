@@ -1,6 +1,7 @@
 nadjetey.github.io
 ==============
-This is my personal blog. 
+
+This is my personal Jekyll blog, hosted on Github-pages &mdash; [view](http://nadjetey.github.io/).
 
 ## About site
 This blog is power by [Jekyll](http://jekyllrb.com/) & [Wangana](https://github.com/nadjetey/wangana) theme and

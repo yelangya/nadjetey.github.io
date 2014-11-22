@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Archive (some of the less popular blog posts)
+title: Archive
 ---
 <div class="col-sm-12">
   <div class="page-title">
@@ -13,7 +13,7 @@ title: Archive (some of the less popular blog posts)
           {% if post.archive %}
             <li>
               <time class="timeago postlist-meta" datetime="{{ post.date |  date: "%A %-d %B %Y" }}">{{ post.date }}</time>
-              &mdash;<a href="{{ post.url }}">{{ post.title }}</a>
+              &mdash; <a href="{{ post.url }}">{{ post.title }}</a>
             </li>
           {% endif %}
       {% endfor %}

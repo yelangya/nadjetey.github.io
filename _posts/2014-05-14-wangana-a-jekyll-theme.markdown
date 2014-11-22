@@ -4,7 +4,7 @@ title:  "Wangana &mdash; A Jekyll theme"
 date:   2014-05-14
 tags: wangana jekyll jekyll-theme
 comments: true
-archive: false
+archive: true
 ---
 Wangana is responsive Jekyll theme, perfect for powering your GitHub hosted blog. This theme was designed and developed by [Nii](https://twitter.com/_nadjetey). It is currently in version 2.5, with the following new improvements:
 

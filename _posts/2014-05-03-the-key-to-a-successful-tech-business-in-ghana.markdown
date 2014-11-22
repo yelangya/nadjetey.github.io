@@ -4,7 +4,7 @@ title:  "The key to a successful tech business in Ghana"
 date:   2014-05-03
 tags: tech-business ghana escrow dev-trouble bank-services
 comments: true
-archive: false
+archive: true
 ---
 
 In my opinion, one of the most obstructive stumbling blocks hindering the success of Ghanaian tech businesses is remuneration (money). By “tech businesses”, I mean young developers trying to be entrepreneurial in selling their skills/services/tech products. Apart from the fact that most developers will sell themselves short by settling for significantly cheaper rates, it is very common for clients to renege on payment agreements.

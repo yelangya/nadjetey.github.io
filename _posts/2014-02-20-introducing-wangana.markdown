@@ -4,7 +4,7 @@ title:  "Introducing Wangana"
 date:   2014-02-20
 tags: wangana jekyll theme open-source
 comments: true
-archive: false
+archive: true
 ---
 
 Welcome to my blog now using the new [Wangana theme](https://github.com/nadjetey/wangana) developed by [Nii](https://twitter.com/_nadjetey) for [Jekyll](http://jekyllrb.com/) - the static site generator written in [Ruby](https://www.ruby-lang.org/en/).

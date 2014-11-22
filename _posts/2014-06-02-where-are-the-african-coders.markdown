@@ -4,7 +4,7 @@ title:  "Where are the African programmers?"
 date:   2014-06-02
 tags: african-programmers african-coders african-developers african-devs african-codewriters
 comments: true
-archive: false
+archive: true
 ---
 
 _(I will talk about Accra, Ghana because that's what I know)_

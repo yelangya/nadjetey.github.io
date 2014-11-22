@@ -4,7 +4,7 @@ title:  "Ensuring syntax highlighting with Jekyll+Pygments"
 date:   2014-07-17
 tags: jekyll_2.1.1 pygments syntax-highlighting md markdown
 comments: true
-archive: false
+archive: true
 ---
 
 Jekyll+Pygments allows code syntax highlighting in writing posts especially in .markdown/.md

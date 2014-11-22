@@ -4,7 +4,7 @@ title:  "African Developer Community — afridevcmty"
 date:   2014-07-20
 tags: afridevcmty dark_matter_developers browsable_online_directory github_africa
 comments: true
-archive: false
+archive: true
 ---
 
 It is common knowledge that programmers/coders/developers/codewriters resident in Africa are not easily visible online. Scott Hanselman referred to them as [dark matter developers](http://www.hanselman.com/blog/DarkMatterDevelopersTheUnseen99.aspx). I do not fully understand exactly why this is the case but I definitely want to contribute to changing it.

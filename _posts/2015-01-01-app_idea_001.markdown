@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "app_idea_001"
+date:   2015-01-01
+tags: app_idea_001, ideation, prototypes
+comments: true
+archive: false
+---
+The main objective of this application is to make the 'red carpet photoshoot' experience easy to setup and host. For example, at an event there is a 'app_idea_001' photo booth setup outside by the entrance. On the set there is a scene with the focus posing. The focus possesses and handles the trigger/remote to take the shot. A tv/projector is stationed directly across from the focus & scenery to aid in picture capturing process. When the focus is satisfied with the picture set, the shot taken via the trigger/remote. The focus may choose to visit the photo booth server name (pbsn) and invite themselves and or others to the gallery blast.
+
+_#Note: This post is subject to reviews & subsequent updates_
+
+###\terms
++ [focus:][link] is the person trying to take a picture (with or without the background/scenery)
++ [gallery blast:][link] is the process of sending the photo gallery url via email
++ [photo gallery url:][link] is the url or link to the photo booth server application gallery online
++ [pbsn:][link] is another name for photo booth server name or the name of the photo gallery
+[link]:http://nadjetey.github.io/2015/01/app_idea_001/
+
+###\shoot downs
+Why would the photographers (which is one of the main market targets) use the application since it takes away from their creativity? This application doesn’t allow the photographers to fully utilise their creative & professional ideas - the power is put in the hands of the focus.

@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<div class="col-sm-12">
+    <div class="posts">
+        {% for post in site.posts %}
+            {% if post.archive == false %}
+            <div class="post-li">
+                <div class="col-sm-8">
+                    <ul class="postlist-block">
+                        <li><time class="timeago postlist-meta" datetime="{{ post.date |  date: "%A %-d %B %Y" }}">{{ post.date }}</time>
+                        <a class="postlist-meta pull-right comments-meta" href="{{ post.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                        <li><a class="postlist-title" href="{{ post.url }}">{{ post.title }}</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-4 hide-on-phone">
+                    <ul class="postlist-block pull-right postlist-meta">
+                        <li><a href="{{ post.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                        <li><a href="{{ post.url }}">more <i class="fa fa-ellipsis-h"></i></a></li>
+                        <li><a class="postlist-detail-indicator">gist <i class="fa fa-expand"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 postlist-detail">
+                    {{post.excerpt}}
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+$(document).ready(function() {
+
+    $(".posts").children().first().find(".postlist-detail").css( "display", "block" );
+    $(".posts").children().first().find(".postlist-detail-indicator")
+        .find("i").toggleClass("fa-compress").toggleClass("fa-expand");
+
+
+    $(".post-li .postlist-detail-indicator").click(function() {
+        var preview = $(this);
+        preview.find("i").toggleClass("fa-expand").toggleClass("fa-compress");
+
+        $(this).closest(".post-li").find(".postlist-detail").toggle("slow", function() {});
+    });
+});
+</script>

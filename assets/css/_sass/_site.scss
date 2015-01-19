@@ -1,3 +1,33 @@
+.tweet-block {
+  margin-top: 90px;
+  .text-block { margin: 10px 0; }
+  .tweet-controls a 
+  { 
+    padding: 5px 10px;
+  }
+}
+
+.text-block {
+  padding: 30px;
+  background-color: $primary-color;
+}
+
+.h-list {
+  padding-top: 10px;   
+  li {
+    float: left;
+    padding-right: 30px;
+  }
+}
+
+.h-list.custom-text-block {
+  padding-left: 250px;
+}
+
+.custom-text-block {
+  padding-left: 220px;
+}
+
 .postlist-block > li .fa-comments-o {
   color: black;
 }

@@ -2,7 +2,7 @@
 layout: post
 title:  "app_idea_001"
 date:   2015-01-01
-tags: app_idea_001, ideation, prototypes
+tags: app_idea_001 ideation prototypes
 comments: true
 archive: false
 ---

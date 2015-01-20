@@ -225,6 +225,21 @@ body {
 }
 
 @media (max-width: 480px) {
+  .text-block {
+    img {
+      position: initial !important;
+      margin-bottom: 10px;
+    }
+  }
+
+  .h-list.custom-text-block {
+    padding-left: 20px !important;
+  }
+
+  .custom-text-block {
+    padding-left: 0 !important;
+  }
+
   #menu .menu-title, .page-nav {
     display: none;
   }

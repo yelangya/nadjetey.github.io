@@ -23,7 +23,7 @@
                 <!-- Content -->
                 <div class="content col-sm-12">
                     <div class="top-nav">
-                        <a class="link" href="/">{{ site.time | date: '%B %d, %Y' }}</a>
+                        <a class="link" href="/">{{ site.time | date_to_rfc822 }}</a>
                         <span class="pull-right">
                             <a id="twitter-ic" class="link" href="https://twitter.com/{{site.owner.twitter}}">
                                 <i class="fa fa-twitter fa-lg"></i>
@@ -39,17 +39,17 @@
                     <div class="row text-block">
                         <img src="https://lh5.googleusercontent.com/-XJG72UlshL0/VLpqPCpF6SI/AAAAAAAADkM/TJDKOdPMQyU/s920-no/1413447.jpeg" class="img-thumbnail" style="width: 200px; height: 200px; left: 30px; position: absolute; top: 70px;" />
                         <div class="custom-text-block">
-                            My name is Nii /ni:/. I’m a full-stack web developer living in Ghana who primarily works with Ruby on Rails to build software for others. More information can be found through LinkedIn. Got a project idea, let’s chat
-
-                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                        <p>Name: <strong>Nii</strong></p>
+                        <p>Location: <strong>Accra</strong>, Ghana.</p>
+                        <p>Bio: I’m a full-stack web developer with a passion for Ruby on Rails.</p> 
+                        <i><a href="mailto:adjetey.07@gmail.com?subject=nadjetey's_blog:Project idea">Do you have a project idea? Let’s chat</a></i>
                         </div>
                     </div>                    
                     <ul class="h-list custom-text-block">
-                        <li><a >Hire me</a></li>
                         <li><a href="{{ "/blog.html" | prepend: site.url }}">Blog</a></li>
-                        <li><a >Read my bio</a></li>
+                        <li><a href="http://gh.linkedin.com/pub/nii-adjetey-sowah/1a/147/ab8/" target="_blank">Read my bio</a></li>
                         <li><a href="{{ "/projects.html" | prepend: site.url }}">Projects</a></li>
-                        <li><a >Contact me</a></li>
+                        <li><a href="mailto:adjetey.07@gmail.com?subject=nadjetey's_blog:Hire me">Hire me</a></li>
                     </ul>
                     <div class="row tweet-block">            
                         <div class="text-block">

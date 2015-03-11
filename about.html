@@ -1,79 +1,82 @@
 ---
+layout: default
+title: About
 ---
-{% include head.html %}
+<div class="col-sm-12">
+    <div class="page-title">
+        {{ page.title }}
+    </div>
 
-<main id="main">
-    <span class="statusbar"></span>
-
-    <!-- Wrap all page content here -->
-    <div id="wrap">
-        <div id="main-content" class="container">
-            <div class="row row-offcanvas row-offcanvas-left">
-                <!-- side bar -->
-                <nav id="nav" role="navigation" class="col-sm-2 sidebar-offcanvas">
+    <div class="projects-container">
+        <!-- Wrap all page content here -->
+        <div id="wrap">
+            <div id="main-content" class="container">
+                <div class="row row-offcanvas row-offcanvas-left">
+                    <!-- side bar -->
+                    <nav id="nav" role="navigation" class="col-sm-2 sidebar-offcanvas">
+                        <header id="menu" role="banner">
+                            <p class="menu-title">Close</p>
+                            <a href="#nav" class="close-btn">Close</a>
+                        </header>                  
+                    </nav>
                     <header id="menu" role="banner">
-                        <p class="menu-title">Close</p>
-                        <a href="#nav" class="close-btn">Close</a>
-                    </header>                  
-                </nav>
-                <header id="menu" role="banner">
-                    <p class="menu-title">Menu</p>
-                    <a href="#nav" class="menu-btn">navigation</a>
-                </header>
-                <!-- Content -->
-                <div class="content col-sm-12">
-                    <div class="top-nav">
-                        <a class="link" href="/">{{ site.description }}</a>
-                        <span class="pull-right">
-                            <a id="twitter-ic" class="link" href="https://twitter.com/{{site.owner.twitter}}">
-                                <i class="fa fa-twitter fa-lg"></i>
-                            </a>
-                            <a id="git-ic" class="link" href="https://github.com/{{site.owner.github}}">
-                                <i class="fa fa-github-square fa-lg"></i>
-                            </a>
-                            <a id="rss-ic" class="link" href="{{site.url}}/feed.xml">
-                                <i class="fa fa-rss fa-lg"></i>
-                            </a>
-                        </span>
-                    </div>
-                    <div class="row text-block">
-                        <img src="https://lh5.googleusercontent.com/-XJG72UlshL0/VLpqPCpF6SI/AAAAAAAADkM/TJDKOdPMQyU/s920-no/1413447.jpeg" class="img-thumbnail" style="width: 200px; height: 200px; left: 30px; position: absolute; top: 70px;" />
-                        <div class="custom-text-block">
-                           <!-- Some intro -->
-                           <h1>Hello, my name is <strong>Nii</strong>.</h1> 
-                           <p>
-                           I'm an open-minded software writer. I enjoy building for the web using Ruby on Rails (RoR).<br />
-                           Currently working at <a href="http://skyfoxservices.com/" target="_blank">SkyFox Ltd.</a>. Welcome to 'my corner of the web'.
-                           </p>
+                        <p class="menu-title">Menu</p>
+                        <a href="#nav" class="menu-btn">navigation</a>
+                    </header>
+                    <!-- Content -->
+                    <div class="content col-sm-12">
+                        <div class="top-nav">
+                            <a class="link" href="/">{{ site.description }}</a>
+                            <span class="pull-right">
+                                <a id="twitter-ic" class="link" href="https://twitter.com/{{site.owner.twitter}}">
+                                    <i class="fa fa-twitter fa-lg"></i>
+                                </a>
+                                <a id="git-ic" class="link" href="https://github.com/{{site.owner.github}}">
+                                    <i class="fa fa-github-square fa-lg"></i>
+                                </a>
+                                <a id="rss-ic" class="link" href="{{site.url}}/feed.xml">
+                                    <i class="fa fa-rss fa-lg"></i>
+                                </a>
+                            </span>
                         </div>
-                    </div>                    
-                    <ul class="h-list custom-text-block">
-                        <li><a href="{{ "/blog.html" | prepend: site.url }}">Blog</a></li>
-                        <li><a href="http://gh.linkedin.com/pub/nii-adjetey-sowah/1a/147/ab8/" target="_blank">Résumé</a></li>
-                        <li><a href="{{ "/projects.html" | prepend: site.url }}">Portfolio</a></li>
-                        <li><a href="mailto:adjetey.07@gmail.com?subject=nadjetey's_blog:Hire me">Hire me</a></li>
-                    </ul>
-                    <div class="row tweet-block">            
-                        <div class="text-block">
-                            <a class="twitter-timeline" href="https://twitter.com/_nadjetey" data-widget-id="557213854145740801" height="300" data-chrome="noborders transparent">Tweets by @_nadjetey</a>
-                            <script>
-                            !function(d,s,id){
-                                var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
-                                if(!d.getElementById(id)){
-                                    js=d.createElement(s);
-                                    js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
-                                    fjs.parentNode.insertBefore(js,fjs);
-                                }
-                            }(document,"script","twitter-wjs");
-                            </script>
+                        <div class="row text-block">
+                            <img src="https://lh5.googleusercontent.com/-XJG72UlshL0/VLpqPCpF6SI/AAAAAAAADkM/TJDKOdPMQyU/s920-no/1413447.jpeg" class="img-thumbnail" style="width: 200px; height: 200px; left: 30px; position: absolute; top: 70px;" />
+                            <div class="custom-text-block">
+                               <!-- Some intro -->
+                               <h1>Hello, my name is <strong>Nii</strong>.</h1> 
+                               <p>
+                               I'm an open-minded software writer. I enjoy building for the web using Ruby on Rails (RoR).<br />
+                               Currently working at <a href="http://skyfoxservices.com/" target="_blank">SkyFox Ltd.</a>. Welcome to 'my corner of the web'.
+                               </p>
+                            </div>
+                        </div>                    
+                        <ul class="h-list custom-text-block">
+                            <li><a href="{{ "/blog.html" | prepend: site.url }}">Blog</a></li>
+                            <li><a href="http://gh.linkedin.com/pub/nii-adjetey-sowah/1a/147/ab8/" target="_blank">Résumé</a></li>
+                            <li><a href="{{ "/projects.html" | prepend: site.url }}">Portfolio</a></li>
+                            <li><a href="mailto:adjetey.07@gmail.com?subject=nadjetey's_blog:Hire me">Hire me</a></li>
+                        </ul>
+                        <div class="row tweet-block">            
+                            <div class="text-block">
+                                <a class="twitter-timeline" href="https://twitter.com/_nadjetey" data-widget-id="557213854145740801" height="300" data-chrome="noborders transparent">Tweets by @_nadjetey</a>
+                                <script>
+                                !function(d,s,id){
+                                    var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+                                    if(!d.getElementById(id)){
+                                        js=d.createElement(s);
+                                        js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+                                        fjs.parentNode.insertBefore(js,fjs);
+                                    }
+                                }(document,"script","twitter-wjs");
+                                </script>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <footer class="footer text-center postlist-meta">
+                Powered by <a class="link" href="https://github.com/nadjetey/wangana">Wangana</a> - Jekyll theme.
+            </footer>
         </div>
-        <footer class="footer text-center postlist-meta">
-            Powered by <a class="link" href="https://github.com/nadjetey/wangana">Wangana</a> - Jekyll theme.
-        </footer>
     </div>
-</main>
-{% include footer.html %}
+</div>

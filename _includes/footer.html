@@ -3,12 +3,14 @@
         <script src="{{ "/assets/js/simpleJekyllSearch.js" | prepend: site.url }}"></script>
         <script src="{{ "/assets/js/jquery.timeago.js" | prepend: site.url }}"></script>
         <script>
-          {% include scripts/timeago.html %}
-          {% include scripts/page-effects.html %}
-          {% include scripts/simple-search.html %}
-          {% include scripts/google-analytics.html %}
           {% include scripts/disqus.html %}
+          {% include scripts/google-analytics.html %}
+          {% include scripts/page-effects.html %}
           {% include scripts/sidebar.html %}
+          {% include scripts/signoff_block.html %}
+          {% include scripts/simple-search.html %}
+          {% include scripts/tags.html %}
+          {% include scripts/timeago.html %}
         </script>
     </body>
 </html>

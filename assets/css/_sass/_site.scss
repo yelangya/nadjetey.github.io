@@ -1,12 +1,25 @@
 // Refactored @Wed, march 11, 2015
 
 // Custom containers & wrappers
+body {
+  color:#000;
+  font: 17px Poly, 'Helvetica Neue', Helvetica, serif, Arial !important;
+}
+
+.footer {
+  height:60px;
+}
+
 #main {
   position: relative;
 }
 
 #main-content {
   min-height: 600px;
+}
+
+.posts > .post-li:last-child {
+  border-bottom: none;
 }
 
 #wrap {
@@ -20,6 +33,7 @@
     padding: 75px 0 60px;
   }
 }
+
 
 // Navigation
 #nav {
@@ -55,8 +69,11 @@
   }
 }
 
-// where is the styling for class="top-nav" ??
-// where is the styling for class="link" ??
+// where is the styling for ??
+  // class="top-nav"
+  // class="link"
+  // class="page-title"
+  // class="timeago"
 .projects-img {
   width: 98%;
   height: 200px;
@@ -112,9 +129,7 @@
   color: #22D722;
 }
 
-.posts > .post-li:last-child {
-  border-bottom: none;
-}
+
 
 ul {  
   list-style-type: square;
@@ -124,18 +139,9 @@ img {
   max-width: 635px;
 }
 
+// Used only in media projects
+  // postlist-meta
 
-
-
-
-body {
-  color:#000;
-  font: 17px Poly, 'Helvetica Neue', Helvetica, serif, Arial !important;
-}
-
-.footer {
-  height:60px;
-}
 
 
 

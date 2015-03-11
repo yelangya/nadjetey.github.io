@@ -16,6 +16,8 @@ layout: default
     	</div>
         <div class="post">
             {{ content }}
+            <!-- If this script is loaded in every post, is this the best place to put it?
+            Should the footer take all the script includes? -->
             {% include scripts/signoff_block.html %}
         </div>
     </div>

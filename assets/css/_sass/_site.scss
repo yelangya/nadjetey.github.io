@@ -22,6 +22,22 @@ body {
   border-bottom: none;
 }
 
+.postlist-block > li .fa-comments-o {
+  color: black;
+}
+
+.postlist-block > li .fa-ellipsis-h {
+  color: #428bca;
+}
+
+.postlist-block > li .fa-compress {
+  color: red;
+}
+
+.postlist-block > li .fa-expand {
+  color: #22D722;
+}
+
 .projects-img {
   width: 98%;
   height: 200px;
@@ -89,7 +105,9 @@ body {
   // #searchbox
   // .projects-container
   // #projects-list
-
+  // .posts
+  // .posts
+  // .postlist-block
 
 
 
@@ -126,21 +144,7 @@ body {
   padding-left: 220px;
 }
 
-.postlist-block > li .fa-comments-o {
-  color: black;
-}
 
-.postlist-block > li .fa-ellipsis-h {
-  color: #428bca;
-}
-
-.postlist-block > li .fa-compress {
-  color: red;
-}
-
-.postlist-block > li .fa-expand {
-  color: #22D722;
-}
 
 
 

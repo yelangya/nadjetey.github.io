@@ -1,10 +1,11 @@
 nadjetey.github.io
 ==============
 
-This is my personal Jekyll blog, hosted on Github-pages &mdash; [view](http://nadjetey.github.io/).
+This is my corner of the web &mdash; a personal blog, hosted on Github Pages.
+Click here to be directed to [nadjetey.github.io](http://nadjetey.github.io/).
 
-## About site
-This blog is power by [Jekyll](http://jekyllrb.com/) & [Wangana](https://github.com/nadjetey/wangana) theme and
+## About this project
+This blog is powered by [Jekyll](http://jekyllrb.com/) & [Wangana](https://github.com/nadjetey/wangana) theme and
 hosted on [Github Pages](pages.github.com)
 
 ## License

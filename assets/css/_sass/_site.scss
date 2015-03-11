@@ -22,6 +22,12 @@ body {
   border-bottom: none;
 }
 
+.projects-img {
+  width: 98%;
+  height: 200px;
+  margin: 15px auto;
+}
+
 #wrap {
   min-height: 100%;
   height: auto;
@@ -70,22 +76,22 @@ body {
 }
 
 // where is the styling for ??
-  // class="top-nav"
-  // class="link"
-  // class="page-title"
-  // class="timeago"
-  // class="tags-contaier"
-  // dropdown-tags
-  // tags
-  // tag-pages
-  // entry-date
+  // .top-nav
+  // .link
+  // .page-title
+  // .timeago
+  // .tags-contaier
+  // .dropdown-tags
+  // .tags
+  // .tag-pages
+  // .entry-date
+  // .search-field
+  // #searchbox
+  // .projects-container
+  // #projects-list
 
 
-.projects-img {
-  width: 98%;
-  height: 200px;
-  margin: 15px auto;
-}
+
 
 .twitter-timeline {
   width: 800px !important;

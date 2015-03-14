@@ -13,7 +13,6 @@ layout: default
                         <li><a class="postlist-title" href="{{ post.url }}">{{ post.title }}</a></li>
                     </ul>
                 </div>
-
                 <div class="col-sm-4 hide-on-phone">
                     <ul class="postlist-block pull-right postlist-meta">
                         <li><a href="{{ post.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
@@ -30,19 +29,15 @@ layout: default
         {% endfor %}
     </div>
 </div>
-
 <script>
 $(document).ready(function() {
-
     $(".posts").children().first().find(".postlist-detail").css( "display", "block" );
     $(".posts").children().first().find(".postlist-detail-indicator")
         .find("i").toggleClass("fa-compress").toggleClass("fa-expand");
 
-
     $(".post-li .postlist-detail-indicator").click(function() {
         var preview = $(this);
         preview.find("i").toggleClass("fa-expand").toggleClass("fa-compress");
-
         $(this).closest(".post-li").find(".postlist-detail").toggle("slow", function() {});
     });
 });

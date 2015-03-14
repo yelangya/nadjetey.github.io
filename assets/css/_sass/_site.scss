@@ -229,11 +229,6 @@ ul {
   padding-left: 220px;
 }
 
-// Used only in media projects
-  // .leaders
-  // .leaders-right
-  // .leaders-left
-
 // Extra modules
 .statusbar {
   top: 0;
@@ -328,6 +323,7 @@ pre {
 }
 
 .leaders {
+  padding-left: 5px;
   overflow:hidden;
   i {
     color:#333;
@@ -508,25 +504,16 @@ pre {
     }
   }
 
-  .h-list.custom-text-block {
-    padding-left: 20px !important;
-  }
+  .h-list.custom-text-block {padding-left: 20px !important;}
 
-  .custom-text-block {
-    padding-left: 0 !important;
-  }
+  .custom-text-block {padding-left: 0 !important;}
 
-  #menu .menu-title, .page-nav {
-    display: none;
-  }
-  #menu {
-    height: 50px;
-  }
+  #menu .menu-title, .page-nav {display: none;}
+
+  #menu {height: 50px;}
   
   .leaders {
-    padding-left: 15px;
-  }
-  .leaders .leaders-left, .leaders .leaders-right {
-    width: 100%;
-  }
+    .leaders-left  {width: 40%;}
+    .leaders-right {width: 60%;}
+  } 
 }

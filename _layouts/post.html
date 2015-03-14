@@ -14,11 +14,10 @@ layout: default
     			comments.
     		</div>
     	</div>
-        <div class="post">
+        <div class="page-content">
             {{ content }}
-            <!-- If this script is loaded in every post, is this the best place to put it?
-            Should the footer take all the script includes? -->
-            {% include scripts/signoff_block.html %}
+            <!-- Share & Comments -->
+            {% include scripts/share.html %}            
         </div>
     </div>
 </div>
@@ -26,4 +25,5 @@ layout: default
     $(".page-preview-icon").hover(function(){
         $(this).parents(".page-nav").css("z-index","5000");
     });
+    {% include scripts/disqus.html %}
 </script>

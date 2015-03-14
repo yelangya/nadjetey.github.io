@@ -1,12 +1,4 @@
 // Refactored @Wed, march 11, 2015
-
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-      -ms-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 // Custom containers & wrappers
 body {
   color:#000;
@@ -80,9 +72,17 @@ main {
   margin: 0;
 }
 
+.page-list > li:first-child {
+  padding-top: 0;
+}
+
+.page-list > li {padding-top: 20px;}
+
 .page-list-item {
-  margin-bottom: 40px;
-  .page-image { margin-top: 35px;}
+  .page-image { 
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
 }
 
 .page-image {
@@ -208,26 +208,26 @@ ul {
   }
 }
 
-.text-block {
-  padding: 30px;
-  background-color: $primary-color;
-}
+// .text-block {
+//   padding: 30px;
+//   background-color: $primary-color;
+// }
 
-.h-list {
-  padding-top: 10px;   
-  li {
-    float: left;
-    padding-right: 30px;
-  }
-}
+// .h-list {
+//   padding-top: 10px;   
+//   li {
+//     float: left;
+//     padding-right: 30px;
+//   }
+// }
 
-.h-list.custom-text-block {
-  padding-left: 250px;
-}
+// .h-list.custom-text-block {
+//   padding-left: 250px;
+// }
 
-.custom-text-block {
-  padding-left: 220px;
-}
+// .custom-text-block {
+//   padding-left: 220px;
+// }
 
 // Extra modules
 .statusbar {
@@ -497,16 +497,16 @@ pre {
       }
     }
   }
-  .text-block {
-    img {
-      position: initial !important;
-      margin-bottom: 10px;
-    }
-  }
+  // .text-block {
+  //   img {
+  //     position: initial !important;
+  //     margin-bottom: 10px;
+  //   }
+  // }
 
-  .h-list.custom-text-block {padding-left: 20px !important;}
+  // .h-list.custom-text-block {padding-left: 20px !important;}
 
-  .custom-text-block {padding-left: 0 !important;}
+  // .custom-text-block {padding-left: 0 !important;}
 
   #menu .menu-title, .page-nav {display: none;}
 

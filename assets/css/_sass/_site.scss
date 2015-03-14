@@ -10,15 +10,15 @@ body {
   height:60px;
 }
 
-#main {
+main {
   position: relative;
 }
 
-#main-content {
-  min-height: 600px;
+.page {
+  margin: 0;
 }
 
-.posts > .post-li:last-child {
+.page > .page-item:last-child {
   border-bottom: none;
 }
 
@@ -54,6 +54,7 @@ body {
     max-width: 800px!important;
     padding: 75px 0 60px;
   }
+  #body {min-height: 600px;}
 }
 
 
@@ -92,8 +93,6 @@ body {
 }
 
 // where is the styling for ??
-  // .top-nav
-  // .link
   // .page-title
   // .timeago
   // .tags-contaier
@@ -105,8 +104,6 @@ body {
   // #searchbox
   // .projects-container
   // #projects-list
-  // .posts
-  // .posts
   // .postlist-block
   // .postlist-detail
   // .postlist-detail-indicator
@@ -155,11 +152,238 @@ img {
 }
 
 // Used only in media projects
-  // .postlist-meta
   // .leaders
   // .leaders-right
   // .leaders-left
   // #search
+
+// Extra modules
+.statusbar {
+  top: 0;
+  position: fixed;
+  background-color: #eb5e29;
+  height: 2px;
+  z-index: 20;
+}
+
+.goto-top {
+  display: none;
+  font-size: 15px !important;
+  cursor: pointer;
+  margin: 1px 0;
+  background: $primary-color;
+  i {
+    color: #333;
+  }
+
+  &:hover,
+  &:focus,
+  &:hover i {
+    color: red;
+  }
+}
+
+.link {
+  color: $lnk-color;
+  min-width: 139px;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $lnk-highlight-color;
+  }
+}
+
+#twitter-ic{
+  color: #55acee !important;
+}
+
+#git-ic{
+  color: #333 !important;
+}
+
+#rss-ic{
+  color: #ff9933 !important;
+}
+
+.top {
+  line-height: 40px;
+  background-color: white;
+  font-weight: 700 !important;  
+  padding-left: 15px;
+  a {color: #333;}
+  span {
+    a {
+      padding-left: 3px;
+    }
+  }
+}
+
+pre {
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+#search {
+  position: absolute;
+  left: 25%;
+  width: 70%;
+  z-index: 100;
+}
+
+#searchbox {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #aaa;
+  outline: none;
+  background: none;
+  margin: 0;
+  padding: .1em 0 1px;
+}
+
+.icon-remove-sign {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  right: 0;
+  display: block;
+}
+
+.page-item {
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+  padding: 7px 0 0;
+  &:hover {
+  background: $primary-color;
+  }
+}
+
+.page-item:hover .meta,
+.page-item:hover .meta a {
+  color: #000000 !important;
+}
+
+.leaders {
+  overflow:hidden;
+  i {
+    color:#333;
+  }
+  li:after {
+    content:"";
+    display:block;
+    overflow:hidden;
+    height:1em;
+    border-bottom:2px dotted;
+  }
+  .leaders-left {
+    float:left;
+    margin:0;
+    padding:0 .2em 0 0;
+    cursor:pointer;
+  }
+  .leaders-right {
+    float:right;
+    margin:0;
+    padding:0 0 0 .2em;
+    cursor:pointer;
+  }
+}
+
+.postlist-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.postlist-detail-indicator{
+  cursor:pointer;
+}
+
+.page-title {
+  font-size: 31px;
+  font-weight: 700;
+  padding: 0 0 0 15px;
+}
+
+.post {
+  position: relative;
+  overflow: hidden;
+  padding: 20px 15px 0;
+}
+
+.post > .container {
+  padding: 75px 0 60px;
+}
+
+.post-comments {
+  border-top: 2px solid #000;
+}
+
+.post-header {
+  width: 100%;
+  text-align: center;
+  line-height: 37px;
+  font-weight: 700;
+  margin: 0 0 20px;
+  padding: 0 0 5px;
+}
+
+
+.post-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.postlist-block {
+  list-style: none;
+  padding: 0;
+}
+
+.postlist-detail {
+  display: none;
+}
+
+.meta,
+.meta a {
+  font-size: 16px;
+  color: #afafaf;
+}
+
+.results li {
+  padding: 20px 0 0;
+}
+
+
+.signoff {
+  margin-top: 60px;
+  background: $primary-color;
+  padding:20px;
+}
+
+.tags,
+.tag-pages {
+  margin: 25px 0;
+}
+
+.tags-contaier,
+.projects-container {
+  margin: 20px 0 0;
+}
+
+#projects-preable {
+  font-style: italic;
+}
+
+#projects-list li {
+  margin-bottom: 10px;
+}
+
 // media queries
 @media (min-width: 768px) {
   #menu,
@@ -169,23 +393,14 @@ img {
 }
 
 @media (max-width: 768px) {
-  #wrap {
-    margin-top: -75px !important;
-  }
+  #wrap {margin-top: -75px !important;}
 
-  #wrap > .container {
-    padding: 0 0 20px;
-    overflow: hidden;
-  }
+  
   #wrap > .container > .row {
     margin: 0;
   }
-  .content {
-    min-height: 400px !important;
-    margin-top: 20px;
-    width: 100% !important;
-  }
-  .post-li > div {
+  
+  .page-item > div {
     width: 100% !important;
   }
   #menu {
@@ -254,7 +469,7 @@ img {
     top: 0;
     width: 70% !important;
   }
-  .postlist-meta li {
+  .meta li {
     display: inline;
   }
   .hide-on-phone {

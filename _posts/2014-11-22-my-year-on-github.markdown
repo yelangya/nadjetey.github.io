@@ -3,7 +3,7 @@ layout: post
 title:  "My year on #Github (2014 recap)"
 date:   2014-11-22
 comments: true
-tags: "github contributions graph"
+tags: github_contributions_graph
 archive: false
 ---
 

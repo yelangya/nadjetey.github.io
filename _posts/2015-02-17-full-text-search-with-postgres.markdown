@@ -3,7 +3,7 @@ layout: post
 title:  "Full text search w/ RoR and Postgres"
 date:  2015-02-17
 comments: true
-tags: technology "dev notes"
+tags: technology dev_notes
 archive: false
 ---
 Full text searching provides the capability to identify documents/models that satify a query, and even sort by relevance to the query (optional). [Full documentation](http://www.postgresql.org/docs/9.1/static/textsearch-intro.html)

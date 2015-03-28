@@ -2,7 +2,7 @@
 layout: post
 title:  "Ensuring syntax highlighting with Jekyll+Pygments"
 date:   2014-07-17
-tags: "syntax-highlighting in markdown"
+tags: syntax-highlighting_in_markdown
 comments: true
 archive: false
 ---

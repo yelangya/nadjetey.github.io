@@ -2,7 +2,6 @@
 layout: post
 title:  "Wangana v2.0"
 date:   2014-03-24
-tags: twitter
 comments: true
 archive: true
 ---

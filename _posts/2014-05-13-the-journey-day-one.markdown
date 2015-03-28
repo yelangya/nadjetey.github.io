@@ -2,7 +2,6 @@
 layout: post
 title:  "The Journey &mdash; Day one"
 date:   2014-05-13
-tags: ruby rails rubyonrails gem rubygems rails-4 timetrap the-depot-application
 comments: true
 archive: true
 ---

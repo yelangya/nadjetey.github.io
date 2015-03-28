@@ -2,7 +2,6 @@
 layout: post
 title:  "Writing posts in Wangana"
 date:   2014-02-20
-tags: wangana jekyll markdown
 comments: true
 archive: true
 ---

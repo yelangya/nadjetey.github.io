@@ -2,7 +2,6 @@
 layout: post
 title:  "How to deploy Jekyll 2.1.1 on Github server"
 date:   2014-10-23
-tags: jekyll_2.1.1 github_server hosting free
 comments: true
 archive: true
 ---

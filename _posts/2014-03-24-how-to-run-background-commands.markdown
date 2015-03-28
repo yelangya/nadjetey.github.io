@@ -2,7 +2,6 @@
 layout: post
 title:  "How to run background commands"
 date:   2014-03-24
-tags: linux ubuntu *nix terminal command
 comments: true
 archive: true
 ---

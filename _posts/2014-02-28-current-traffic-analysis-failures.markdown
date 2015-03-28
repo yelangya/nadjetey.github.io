@@ -2,7 +2,6 @@
 layout: post
 title:  "Current traffic analysis failures"
 date:   2014-02-28
-tags: traffic-analysis GitHub bitdeli
 comments: true
 archive: true
 ---

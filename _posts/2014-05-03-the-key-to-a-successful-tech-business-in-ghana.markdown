@@ -2,7 +2,6 @@
 layout: post
 title:  "The key to a successful tech business in Ghana"
 date:   2014-05-03
-tags: tech-business ghana escrow dev-trouble bank-services
 comments: true
 archive: true
 ---

@@ -2,7 +2,6 @@
 layout: post
 title:  "How to include HTML entities in XML source"
 date:   2014-06-24
-tags: xml atom jekyll
 comments: true
 archive: true
 ---

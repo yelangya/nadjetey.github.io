@@ -2,7 +2,6 @@
 layout: post
 title:  "African Developer Community — afridevcmty"
 date:   2014-07-20
-tags: afridevcmty dark_matter_developers browsable_online_directory github_africa
 comments: true
 archive: true
 ---

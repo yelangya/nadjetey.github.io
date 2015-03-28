@@ -3,7 +3,6 @@ layout: post
 title:  "Cleanup grub OS list"
 date:   2014-01-02 21:30:26
 comments: true
-tags: quickfix ubuntu-kernel
 archive: true
 ---
 Open terminal and check your current kernel:

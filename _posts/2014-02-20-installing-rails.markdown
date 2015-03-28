@@ -2,7 +2,6 @@
 layout: post
 title:  "Installing Rails on GNU Linux"
 date:   2014-02-20
-tags: linux rails gnu ruby
 comments: true
 archive: true
 ---

@@ -2,7 +2,6 @@
 layout: post
 title:  "My journey to becoming a Senior Ruby on Rails Developer"
 date:   2014-05-12
-tags: ruby rails rubyonrails gem rubygems rails-4 timetrap the-depot-application
 comments: true
 archive: true
 ---

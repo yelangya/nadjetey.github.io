@@ -2,7 +2,6 @@
 layout: post
 title:  "Wangana &mdash; A Jekyll theme"
 date:   2014-05-14
-tags: wangana jekyll jekyll-theme
 comments: true
 archive: true
 ---

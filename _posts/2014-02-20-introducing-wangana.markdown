@@ -2,7 +2,6 @@
 layout: post
 title:  "Introducing Wangana"
 date:   2014-02-20
-tags: wangana jekyll theme open-source
 comments: true
 archive: true
 ---

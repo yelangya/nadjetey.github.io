@@ -2,7 +2,6 @@
 layout: post
 title:  "'Same Shit, Different Day (S.S.D.D.)' -Stephen King's Dreamcatcher"
 date:   2014-03-24
-tags: instagram
 comments: true
 archive: true
 ---

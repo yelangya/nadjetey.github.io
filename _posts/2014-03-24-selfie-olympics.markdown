@@ -2,7 +2,6 @@
 layout: post
 title:  "Selfie Olympics"
 date:   2014-03-24
-tags: instagram
 comments: true
 archive: true
 ---

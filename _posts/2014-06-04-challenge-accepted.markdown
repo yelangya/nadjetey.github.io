@@ -2,7 +2,6 @@
 layout: post
 title:  "Challenge accepted"
 date:   2014-06-04
-tags: african-programmers african-coders african-developers african-devs african-codewriters
 comments: true
 archive: true
 ---

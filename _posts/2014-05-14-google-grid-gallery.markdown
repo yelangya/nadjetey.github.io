@@ -2,7 +2,6 @@
 layout: post
 title:  "Google grid gallery"
 date:   2014-05-14
-tags: google-grid-gallery image-gallery gallery google jekyll jekyll-theme
 comments: true
 archive: true
 ---
